@@ -1,0 +1,22 @@
+//Tipografias navbar
+
+.menu{
+    &__logo{
+        @include relative-converter(font-size,rem ,$textLarge, 16);
+        font-weight: $bold;
+        text-transform: uppercase;
+    }
+}
+
+
+//Tipografias contenido
+
+.contenido{
+    &__cabecera h2{
+        @include relative-converter(font-size,rem ,$textLarge, 16 );
+    }
+    &__cuerpo{
+        @include relative-converter(font-size,rem ,$textNormal, 16 );
+     
+    }
+}

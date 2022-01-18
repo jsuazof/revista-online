@@ -1,0 +1,33 @@
+//colores
+
+$gray: gray;
+$steelblue:steelblue;
+$white: white;
+$whiteNot:#f2f4f5; 
+$coral: coral; 
+
+//fuentes
+$tipografia: monospace;
+
+//Font size
+$textLarge:24;
+$textNormal:13;
+
+//Estilos
+$bold:700;
+$regular:400;
+
+//diagramación
+
+$viewportWidth:100%;
+$widthNews:32%; 
+$padding5: 5px;
+$padding10: 1%;
+
+// Breakpoints
+$breakpoints:(
+    'small' :(min-width: 320px),
+    'medium':(min-width: 768px),
+    'large' :(min-width: 992px),
+    'huge'  :(min-width: 1200px),
+);

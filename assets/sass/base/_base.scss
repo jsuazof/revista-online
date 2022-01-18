@@ -1,0 +1,14 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    font-family: $tipografia;
+}
+.contenedor{
+    width:$viewportWidth;
+
+    &__d-none-mobile{
+        display:none;
+    }
+}
